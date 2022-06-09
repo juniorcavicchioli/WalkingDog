@@ -1,0 +1,22 @@
+
+#container, #grama, #dog-path{
+	width: 100%;
+	height: 500px;
+	position: relative;
+	display: flex;
+	background-color: lightblue;
+}
+#container #grama{
+	height: 100px;
+	position: absolute;
+    bottom: 0px;
+	background-color: rgb(70, 38, 38);
+	border-top: 10px solid green;
+}
+#container #dog-path{
+	width: 220px;
+	height: 150px;
+	position:absolute;
+	bottom: 110px;
+	
+}
