@@ -1,22 +1,82 @@
-
-#container, #grama, #dog-path{
+*{
 	width: 100%;
-	height: 500px;
+	height: 100%;
+	margin:0 auto;
+	padding:0;
+	background: lightblue;
+	background-image:linear-gradient(180deg,lightblue, lightblue, rgb(70, 38, 38),rgb(70, 38, 38));
+}
+#container, #grama, #dog-path{
+	height: 80%;
 	position: relative;
 	display: flex;
-	background-color: lightblue;
+	background-image: none;
+}
+#button{
+	width: 17.5%;
+	height: 7%;
+	font-family:'Times New Roman', Times, serif;
+	cursor: pointer;
+	text-transform: uppercase;
+	padding: 1%;
+	font-weight:700;
+	border:1px solid #3a1615;
+	background: #7aa9b9;
+	box-shadow:0 5px 0 #5e92a4;
+	position: center;
+	margin: 1% 0 1.5% 41.25%;
+	border-radius: 5px;
+}
+#button:hover{
+	background: #e05c5c;
+	box-shadow:0 5px 0 #af4141;
+	
+}
+#button:active{
+	position:relative;
+	top:5px;
+	box-shadow:none;
 }
 #container #grama{
-	height: 100px;
+	width: 100%;
+	height: 21.6%;
 	position: absolute;
     bottom: 0px;
 	background-color: rgb(70, 38, 38);
 	border-top: 10px solid green;
 }
 #container #dog-path{
-	width: 220px;
-	height: 150px;
+	width: 18.5%;
+	height: 30%;
 	position:absolute;
 	bottom: 110px;
-	
+}
+#dog{
+	width: 100%;
+	height: 100%;
+	background-image: none;
+}
+footer {
+	height: 5%;
+	width: 100%;
+	background-image: none;
+	background-color: rgb(70, 38, 38);
+	text-align: center;
+	position: relative;
+}
+footer a:link, a:visited{
+	font-family: 'Times New Roman', Times, serif;
+	font-size: small;
+	width: 17.5%;
+	background-image: none;
+	padding: 1%;
+	text-decoration: none;
+	text-transform: uppercase;
+	background: #703232;
+	border: 1px solid #3a1615;
+	color: rgb(0, 0, 0);
+	border-radius: 10px;
+}
+footer a:hover, a:active{
+	background-color: #e05c5c;
 }
