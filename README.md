@@ -1,8 +1,8 @@
 # WalkingDog
 Terceira atividade semestral da disciplina Responsive Web Development ministrada pelo professor Adriano Milanez
 na Faculdade de Informática e Administração Paulista (FIAP). Eu a fiz depois do período de avaliação,
-o que significa que não foi entregue ao professor portanto não recebeu nota.
-
+o que significa que não foi entregue ao professor portanto não recebeu nota. Seguindo a definição da tarefa bem como
+as instruções, acredito que tenha todos os requisitos para ser uma tarefa aprovada.
 ### Instruções
 1. Esta atividade é em dupla;
 2. Não serão aceitos trabalhos exatamente iguais. Lembrem-se somos pessoas diferentes, pensando de modo
